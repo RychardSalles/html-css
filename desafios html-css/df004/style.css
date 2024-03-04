@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgba(189, 255, 6, 0.623);
+    text-align: center;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+ }
+        
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a::before{
+    content: "➲ ";
+    font-weight: bold;
+}
+
+iframe{
+    margin: 30px;
+}
