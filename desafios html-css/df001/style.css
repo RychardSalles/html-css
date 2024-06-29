@@ -30,7 +30,7 @@ p{
     text-indent: 1rem;
 }
 
-nav a{
+nav a{ /*Configuração dos links*/
     color: black;
     font-weight: bold;
     text-decoration: none;
